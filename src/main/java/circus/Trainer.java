@@ -19,17 +19,8 @@ public class Trainer {
         Duck d2 = (Duck) a; // downcasting
         getToSpeak(d2);
 
-<<<<<<< HEAD:src/main/java/Trainer.java
-        train(new Duck());
-        // train(new Parrot());
-
-        //Animal a2 = new Animal();
-        Bird b2 = new Bird();
-
-=======
         train(new Duck("Daisy"));
         // train(new animal.Parrot());
->>>>>>> upstream/master:src/main/java/circus/Trainer.java
     }
 
     private static void getToSpeak(Animal animal) {
